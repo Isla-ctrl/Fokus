@@ -3,8 +3,10 @@ const formAdicionarTarefa = document.querySelector('.app__form-add-task')
 const textarea = document.querySelector('.app__form-textarea')
 const ulTarefas = document.querySelector('.app__section-task-list')
 const btnCancelar = document.querySelector('.app__form-footer__button--cancel')
+const paragrafoDescricaoTarefa = document.querySelector('.app__section-active-task-description')
 
 const tarefas = JSON.parse(localStorage.getItem('tarefas')) || []
+let tarefaSelecionada = null
 
 function limparFormulario() {
     textarea.value = ''
@@ -51,6 +53,22 @@ function criarElementoTarefa(tarefa) {
     li.append(svg)
     li.append(paragrafo)
     li.append(botao)
+
+    li.onclick = () => {
+        document.querySelectorAll('.app__section-task-list-item-active')
+            .forEach(elemento => {
+                elemento.classList.remove('app__section-task-list-item-active')
+            })
+        if (tarefaSelecionada == tarefa) {
+            paragrafoDescricaoTarefa.textContent = ''
+            tarefaSelecionada = null
+            return
+        }
+        tarefaSelecionada = tarefa
+        paragrafoDescricaoTarefa.textContent = tarefa.descricao
+        
+        li.classList.add('app__section-task-list-item-active')
+    }
 
     return li
 }
