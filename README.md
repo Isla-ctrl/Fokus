@@ -1,4 +1,4 @@
-🎯 Fokus
+## 🎯 FOKUS
 
 Aplicação de produtividade inspirada na técnica Pomodoro, desenvolvida como projeto de estudo de manipulação de elementos DOM com JavaScript puro. Além do timer de foco/descanso, o projeto evoluiu para um gerenciador de tarefas integrado, com persistência via `localStorage` e sincronização entre o cronômetro e a lista de tarefas através de eventos customizados.
 
