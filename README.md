@@ -17,7 +17,7 @@ Aplicação de produtividade inspirada na técnica Pomodoro, desenvolvida como p
 
 O Fokus ajuda o usuário a alternar entre três contextos de produtividade: **Foco**, **Descanso curto** e **Descanso longo**, cada um com seu próprio tempo de contagem regressiva, trilha sonora e identidade visual.
 
-Na segunda etapa do projeto, o Fokus deixou de ser apenas um timer e passou a funcionar como um gerenciador de tarefas completo: o usuário pode criar, editar e concluir tarefas, e quando um ciclo de foco termina, a tarefa selecionada no momento é automaticamente marcada como concluída. Tudo isso foi construído sem depender de nenhuma biblioteca ou framework — só JavaScript puro, manipulação de DOM e `localStorage`.
+Na segunda etapa do projeto, o Fokus deixou de ser apenas um timer e passou a funcionar como um gerenciador de tarefas completo: o usuário pode criar, editar e concluir tarefas, e quando um ciclo de foco termina, a tarefa selecionada no momento é automaticamente marcada como concluída. Tudo isso foi construído sem depender de nenhuma biblioteca ou framework, só JavaScript puro, manipulação de DOM e `localStorage`.
 
 ---
 
@@ -42,9 +42,9 @@ Na segunda etapa do projeto, o Fokus deixou de ser apenas um timer e passou a fu
 
 ## 🛠️ Tecnologias utilizadas
 
-- **JavaScript (sem frameworks)** — manipulação de DOM, eventos, controle de estado e persistência de dados
-- **HTML5** e **CSS3** — estrutura e estilização
-- **Git e GitHub** — versionamento do projeto
+- **JavaScript (sem frameworks)** - manipulação de DOM, eventos, controle de estado e persistência de dados
+- **HTML5** e **CSS3** - estrutura e estilização
+- **Git e GitHub** - versionamento do projeto
 
 ---
 
@@ -69,7 +69,7 @@ Na segunda etapa de evolução do projeto (sistema de tarefas), aprofundei o ent
 
 ## 🔧 Versionamento e boas práticas de Git
 
-Diferente da primeira etapa do projeto, essa segunda fase eu decidi tratar como se estivesse trabalhando em equipe de verdade, mesmo sendo um projeto individual. Isso não foi algo incentivado pelo curso — foi uma iniciativa minha, porque quero desenvolver o hábito de trabalhar com Git e GitHub do jeito certo desde já, em todos os projetos daqui pra frente.
+Diferente da primeira etapa do projeto, essa segunda fase eu decidi tratar como se estivesse trabalhando em equipe de verdade, mesmo sendo um projeto individual. Isso não foi algo incentivado pelo curso, foi uma iniciativa minha, porque quero desenvolver o hábito de trabalhar com Git e GitHub do jeito certo desde já, em todos os projetos daqui pra frente.
 
 Por isso, nesta etapa:
 
