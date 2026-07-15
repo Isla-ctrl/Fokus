@@ -61,7 +61,7 @@ Na segunda etapa de evolução do projeto (sistema de tarefas), aprofundei o ent
 - Manipulação de elementos DOM (`classList`, atributos `data-*`, seleção de elementos, criação dinâmica de elementos com `document.createElement`)
 - Controle de estado de UI sem frameworks (rastreamento da tarefa selecionada com variáveis como `tarefaSelecionada` e `liTarefaSelecionada`)
 - Persistência de dados no `localStorage`, com funções encapsuladas para leitura e atualização
-- Criação e disparo de eventos customizados (`CustomEvent` e `dispatchEvent`) para comunicar o timer com a lista de tarefas — quando o foco termina, o evento `focoFinalizado` avisa o restante da aplicação
+- Criação e disparo de eventos customizados (`CustomEvent` e `dispatchEvent`) para comunicar o timer com a lista de tarefas, quando o foco termina, o evento `focoFinalizado` avisa o restante da aplicação
 - Sincronização entre múltiplos elementos de interface (timer, ícone, áudio, texto, lista de tarefas) a partir de uma única ação do usuário
 - Uso do `prompt` para capturar edições do usuário e atualizar tanto o DOM quanto o estado interno da aplicação
 
