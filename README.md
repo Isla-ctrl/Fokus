@@ -8,6 +8,11 @@ Aplicação de produtividade inspirada na técnica Pomodoro, desenvolvida como p
 
 ---
 
+➜ [Acesse o link para ver o projeto publicado](https://fokus-tau-liart.vercel.app/)
+> Este projeto é de melhor visualização em mobile, no momento a responsividade não está aplicada para telas maiores. Assim que possivel irei fazer está atualização de forma independente.
+
+---
+
 ## 📌 Sobre o projeto
 
 O Fokus ajuda o usuário a alternar entre três contextos de produtividade: **Foco**, **Descanso curto** e **Descanso longo**, cada um com seu próprio tempo de contagem regressiva, trilha sonora e identidade visual.
