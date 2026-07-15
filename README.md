@@ -91,3 +91,7 @@ Fokus/
 ---
 
 Desenvolvido como parte da minha jornada de estudos em desenvolvimento front-end. 💻
+
+> O mais importante foi me desafiar a estruturar o código antes de ver a resolução dos instrutores, mesmo que isso torne meus estudos mais longos. Mas o mais importante para mim é desenvolver uma base sólida e futuramente ser capaz de sustentar cada conhecimento. Não é preciso decorar tudo, mas sim, saber pesquisar e ter a paciência de pensar na resolução do problema.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/https://www.linkedin.com/in/beatriz-souza-6a942b333/)
